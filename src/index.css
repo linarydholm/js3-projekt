@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-200
+    flex
+    justify-center
+    align-middle
+    m-12;
+}
+
+h1 {
+  @apply text-3xl
+    uppercase
+    font-bold
+    text-center
+    mb-8;
+}
+
+input,
+select {
+  @apply border-2
+    border-gray-300
+    rounded
+    px-2
+    h-10;
+}
+
+label {
+  @apply mt-3
+    mb-1
+    text-xs;
+}
+
+button.big-btn {
+  @apply border-2
+    border-black
+    h-12
+    w-full
+    rounded
+    uppercase
+    font-medium;
+}
+
+input[type="submit"] {
+  @apply border-2
+    border-black
+    w-full
+    rounded
+    mt-6
+    h-12
+    uppercase
+    font-medium;
+}
+
+.wrapper {
+  @apply bg-white
+    max-w-sm
+    p-10
+    rounded;
+}
+
+.col {
+  @apply flex
+    flex-col;
+}
+
+.row {
+  @apply flex
+    flex-row;
+}
+
+.small-text {
+  @apply text-center
+    uppercase
+    text-xs
+    font-medium
+    mb-1;
+}
+
+.card {
+  width: 19rem;
+  @apply bg-gray-200;
+}
+
+.error-message {
+  @apply text-xs
+  text-red-800
+  align-middle;
+}
+
+button.activate {
+  @apply hover:bg-green-800
+  hover:text-white;
+}
+button.delete {
+  @apply hover:bg-red-800
+  hover:text-white;
+}
+
+button.close {
+  @apply hover:bg-black
+  hover:text-white;
+}
+
+button.popup-btn {
+  @apply border-2
+  border-black
+  py-1
+  px-3
+  rounded
+  uppercase
+  font-medium
+  text-xs;
+}
+
+.visa {
+  @apply bg-blue-900 text-white;
+}
+.amex {
+  @apply bg-yellow-400;
+}
+.mastercard {
+  @apply bg-pink-800 text-white;
+}
