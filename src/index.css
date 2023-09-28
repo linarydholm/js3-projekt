@@ -116,11 +116,11 @@ button.popup-btn {
 }
 
 .visa {
-  @apply bg-blue-900 text-white;
+  @apply bg-gradient-to-tr from-blue-900 to-blue-700 text-white;
 }
 .amex {
-  @apply bg-yellow-400;
+  @apply bg-gradient-to-tr from-yellow-400 to-yellow-200;
 }
 .mastercard {
-  @apply bg-pink-800 text-white;
+  @apply bg-gradient-to-tr from-pink-800 to-pink-600 text-white;
 }
